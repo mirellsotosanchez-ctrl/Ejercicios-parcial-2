@@ -1,5 +1,5 @@
  name = []
-age = 0
+age = []
 birthday = []
 email = []
 password = []
@@ -28,9 +28,11 @@ while True:
                 confirmPass = input("Confirma tu contraseña: ")
 
         case 2:
-            print("Nombre:", name, "Edad:", age, "Fecha de nacimiento:", birthday,"correo electronico:", email)
+            print("Lista de usuarios registrados:")
             for i in range(len(name)):
-        case 3:
+               print("Id:-", i, " Con el nombre: ", name[i], " con el apellido: ", lastName[i], "Con la 
+                     #i += 1
+         case 3: 
             name = ""
             lastName = ""
             age= 0
